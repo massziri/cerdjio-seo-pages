@@ -1,0 +1,29 @@
+{
+  "rewrites": [
+    { "source": "/garde-meuble-oise/", "destination": "/pages/garde-meuble-oise.html" },
+    { "source": "/garde-meuble-oise", "destination": "/pages/garde-meuble-oise.html" },
+    { "source": "/garde-meuble-compiegne/", "destination": "/pages/garde-meuble-compiegne.html" },
+    { "source": "/garde-meuble-compiegne", "destination": "/pages/garde-meuble-compiegne.html" },
+    { "source": "/garde-meuble-senlis/", "destination": "/pages/garde-meuble-senlis.html" },
+    { "source": "/garde-meuble-senlis", "destination": "/pages/garde-meuble-senlis.html" },
+    { "source": "/garde-meuble-beauvais/", "destination": "/pages/garde-meuble-beauvais.html" },
+    { "source": "/garde-meuble-beauvais", "destination": "/pages/garde-meuble-beauvais.html" },
+    { "source": "/garde-meuble-noyon/", "destination": "/pages/garde-meuble-noyon.html" },
+    { "source": "/garde-meuble-noyon", "destination": "/pages/garde-meuble-noyon.html" },
+    { "source": "/garde-meuble-pres-de-paris/", "destination": "/pages/garde-meuble-pres-de-paris.html" },
+    { "source": "/garde-meuble-pres-de-paris", "destination": "/pages/garde-meuble-pres-de-paris.html" },
+    { "source": "/garde-meuble-ile-de-france/", "destination": "/pages/garde-meuble-ile-de-france.html" },
+    { "source": "/garde-meuble-ile-de-france", "destination": "/pages/garde-meuble-ile-de-france.html" },
+    { "source": "/demenagement-paris-garde-meuble/", "destination": "/pages/demenagement-paris-garde-meuble.html" },
+    { "source": "/demenagement-paris-garde-meuble", "destination": "/pages/demenagement-paris-garde-meuble.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
+      ]
+    }
+  ]
+}
