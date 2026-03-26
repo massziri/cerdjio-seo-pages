@@ -1,89 +1,76 @@
-# 🏠 CERDJIO Garde-Meubles – Pages SEO Locales
+# 🏠 CERDJIO Garde-Meubles – Pages SEO Locales & Guides
 
-**Stratégie SEO Local pour CERDJIO Garde-Meubles**  
-📍 12 rue des Vignettes, 60490 Cuvilly – Oise (60)  
-🌐 [garde-meuble-pas-cher.com](https://www.garde-meuble-pas-cher.com/)
-
----
-
-## 📋 Contenu du projet
-
-Ce dépôt contient **8 pages SEO géolocalisées** + une page hub d'index, conçues pour améliorer le référencement local de CERDJIO Garde-Meubles dans l'Oise et en Île-de-France.
-
-### Pages Oise (Département 60)
-| Page | URL | Fichier |
-|------|-----|---------|
-| Page pilier Oise | `/garde-meuble-oise/` | `pages/garde-meuble-oise.html` |
-| Compiègne | `/garde-meuble-compiegne/` | `pages/garde-meuble-compiegne.html` |
-| Senlis | `/garde-meuble-senlis/` | `pages/garde-meuble-senlis.html` |
-| Beauvais | `/garde-meuble-beauvais/` | `pages/garde-meuble-beauvais.html` |
-| Noyon | `/garde-meuble-noyon/` | `pages/garde-meuble-noyon.html` |
-
-### Pages Île-de-France / Paris
-| Page | URL | Fichier |
-|------|-----|---------|
-| Près de Paris | `/garde-meuble-pres-de-paris/` | `pages/garde-meuble-pres-de-paris.html` |
-| Île-de-France | `/garde-meuble-ile-de-france/` | `pages/garde-meuble-ile-de-france.html` |
-| Déménagement Paris | `/demenagement-paris-garde-meuble/` | `pages/demenagement-paris-garde-meuble.html` |
+**Stratégie SEO Local complète pour CERDJIO Garde-Meubles**  
+Oise (60) & Région Parisienne | www.garde-meuble-pas-cher.com
 
 ---
 
-## ✅ Optimisations SEO intégrées
-
-Chaque page inclut :
-
-- ✅ **Schema.org LocalBusiness / SelfStorage** – Balisage structuré complet
-- ✅ **Schema.org FAQPage** – Pour les résultats enrichis Google
-- ✅ **Title, Meta Description, H1** optimisés avec mots-clés locaux
-- ✅ **FAQ locales** (7-9 questions/réponses par page)
-- ✅ **Maillage interne** entre toutes les pages SEO
-- ✅ **Google Maps interactif** avec itinéraire depuis chaque ville
-- ✅ **CTA téléphone cliquable** sur toutes les pages
-- ✅ **Design responsive** (mobile, tablette, desktop)
-- ✅ **NAP cohérent** (Nom, Adresse, Téléphone identiques partout)
-- ✅ **Contenu unique** avec arguments prix, proximité, sécurité
-
----
-
-## 🚀 Déploiement Vercel
-
-Le fichier `vercel.json` contient les rewrites nécessaires pour que les URLs propres fonctionnent :
-- `/garde-meuble-oise/` → `pages/garde-meuble-oise.html`
-- etc.
-
-La page `index.html` est une page hub qui liste toutes les pages SEO (sans redirection).
-
----
-
-## 📁 Structure
+## 📂 Structure du projet
 
 ```
 cerdjio-seo-pages/
-├── index.html                              ← Page hub (liste toutes les pages SEO)
-├── vercel.json                             ← Configuration rewrites Vercel
-├── README.md                               ← Ce fichier
-├── docs/
-│   ├── Guide-SEO-Local-CERDJIO-...v2.pdf  ← Guide stratégique
-│   └── Devis-SEO-Local-...2026-03-27.pdf  ← Devis détaillé
-└── pages/
-    ├── garde-meuble-oise.html             ← Page pilier Oise
-    ├── garde-meuble-compiegne.html
-    ├── garde-meuble-senlis.html
-    ├── garde-meuble-beauvais.html
-    ├── garde-meuble-noyon.html
-    ├── garde-meuble-pres-de-paris.html
-    ├── garde-meuble-ile-de-france.html
-    └── demenagement-paris-garde-meuble.html
+├── index.html                              ← Page hub (accueil du site de démonstration)
+├── vercel.json                             ← Configuration des routes Vercel
+├── README.md
+│
+├── pages/                                  ← 8 pages SEO géolocalisées
+│   ├── garde-meuble-oise.html             ← Page pilier département 60
+│   ├── garde-meuble-compiegne.html        ← Compiègne (15 km)
+│   ├── garde-meuble-senlis.html           ← Senlis (porte vers l'IDF)
+│   ├── garde-meuble-beauvais.html         ← Beauvais (chef-lieu)
+│   ├── garde-meuble-noyon.html            ← Noyon (zone nord-est)
+│   ├── garde-meuble-pres-de-paris.html    ← Alternative aux tarifs parisiens
+│   ├── garde-meuble-ile-de-france.html    ← Ciblage région IDF
+│   └── demenagement-paris-garde-meuble.html ← Synergie déménagement + stockage
+│
+└── docs/                                   ← Documents et guides
+    ├── Guide-SEO-Local-CERDJIO-Garde-Meubles-v3.pdf    ← Stratégie SEO (v3 adaptée)
+    ├── Devis-SEO-Local-Garde-Meubles-2026-03-27-v2.pdf ← Devis (v2 adapté)
+    ├── Guide-Google-Business-Profile-CERDJIO.pdf         ← Guide GBP pas-à-pas
+    ├── Guide-Collecte-Avis-Google-CERDJIO.pdf            ← Stratégie collecte d'avis
+    ├── Guide-Inscriptions-Annuaires-CERDJIO.pdf          ← Liste annuaires + procédures
+    ├── Calendrier-Google-Posts-3-Mois-CERDJIO.pdf        ← 12 posts prêts à publier
+    ├── Guide-SEO-Local-CERDJIO-Garde-Meubles-v2.pdf     ← (ancien) Stratégie originale
+    └── Devis-SEO-Local-Garde-Meubles-2026-03-27.pdf     ← (ancien) Devis original
 ```
 
 ---
 
-## 📞 Contact client
+## ✅ Phase 1 – Travail technique réalisé (par Tariq)
 
-**M. Serge Robillard – CERDJIO Garde-Meubles**  
-📍 12 rue des Vignettes, 60490 Cuvilly  
-📞 03 44 93 01 17 | 📱 06 13 05 75 72  
-✉️ demenagement.cerdjio@gmail.com
+| Élément | Statut |
+|---------|--------|
+| 8 pages SEO géolocalisées | ✅ Fait |
+| Schema.org LocalBusiness / SelfStorage | ✅ Fait |
+| Schema.org FAQPage | ✅ Fait |
+| Balises Title / Meta Description / H1 optimisées | ✅ Fait |
+| FAQ locales (7-9 questions/page) | ✅ Fait |
+| Maillage interne entre toutes les pages | ✅ Fait |
+| Google Maps interactif sur chaque page | ✅ Fait |
+| CTA téléphone cliquable | ✅ Fait |
+| Design responsive | ✅ Fait |
+| NAP cohérent | ✅ Fait |
+| Contenu unique optimisé SEO | ✅ Fait |
+
+## 📋 Phase 2 – Actions client (guidées par PDF)
+
+| Action | Guide fourni | Temps estimé |
+|--------|-------------|--------------|
+| Optimiser Google Business Profile | Guide-GBP.pdf | 30-45 min |
+| Fusionner les 2 fiches Google | Guide-GBP.pdf §4 | 15 min |
+| Collecter des avis Google | Guide-Avis.pdf | Continu |
+| S'inscrire sur les annuaires | Guide-Annuaires.pdf | 2-3 heures |
+| Publier Google Posts | Calendrier-Posts.pdf | 10 min/semaine |
+
+---
+
+## 🚀 Déploiement
+
+Ce site est conçu pour être déployé sur **Vercel** directement depuis ce dépôt GitHub.
+
+- L'index affiche une page hub avec les liens vers les 8 pages SEO
+- Le fichier `vercel.json` gère les rewrites des URLs propres
+- Chaque page est accessible via son URL SEO-friendly (ex: `/garde-meuble-compiegne/`)
 
 ---
 
